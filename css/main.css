@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(229, 248, 251);
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 2rem 1.5rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: monospace;
+    letter-spacing: 3px;
+    color: dimgrey;
+}
+.header-left span {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgb(117, 175, 241);
+    margin-right: 0.5rem;
+}
+.header-right a {
+text-decoration: none;
+font-size: 1.8rem;
+margin-right: 2.5rem;
+color: dodgerblue;
+letter-spacing: 2px;
+}
+
+.header-link{
+    position: relative;
+}
+
+.header-active .active{
+    color: rgb(53, 52, 52);
+    display: block;
+    margin-bottom: 9px;
+    font-size: 17px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 3px 0;
+}
+.header-active {
+    display: none;
+    position: absolute; top: 0; right: 4.5%; text-align: center; 
+    list-style-type: none;
+    cursor: pointer;
+   
+  
+}
+.header-link:hover .header-active{
+    display: block;
+
+}
+
+.hero-box {
+    background-image: url('../images/image2.jpg');
+    height: 100vh;
+    margin-top: 25px;
+    background-position-x: 50%;
+    background-position-y: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-box {
+text-align: center;
+padding-top: 15%;
+}
+.hero-box h1 {
+    font-size: 40px;
+    margin-bottom: 4rem;
+    color: rgba(80, 79, 79, 0.849);
+    letter-spacing: 3px;
+    font-family: monospace;
+}
+.hero-box p {
+    font-size: 1.8rem;
+    width: 45rem;
+    margin: auto;
+    color: rgb(241, 37, 37);
+    letter-spacing: 0.3rem;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+}
+.hero-box a {
+text-decoration: none;
+font-size: 2rem;
+color: black;
+background-color: dodgerblue;
+padding:1rem 1.5rem ;
+border-radius: 0.5rem;
+}
