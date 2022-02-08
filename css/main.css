@@ -75,6 +75,10 @@ letter-spacing: 2px;
 }
 
 .hero-box {
+    width: 90%;
+    margin: auto;
+}
+.img-container{
     background-image: url('../images/image2.jpg');
     height: 100vh;
     margin-top: 25px;
@@ -82,10 +86,8 @@ letter-spacing: 2px;
     background-position-y: 30%;
     background-size: cover;
     background-repeat: no-repeat;
-}
-.hero-box {
-text-align: center;
-padding-top: 15%;
+    text-align: center;
+    padding-top: 15%;
 }
 .hero-box h1 {
     font-size: 40px;
@@ -104,10 +106,10 @@ padding-top: 15%;
     margin-bottom: 5rem;
 }
 .hero-box a {
-text-decoration: none;
-font-size: 2rem;
-color: black;
-background-color: dodgerblue;
-padding:1rem 1.5rem ;
-border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    background-color: dodgerblue;
+    padding:1rem 1.5rem ;
+    border-radius: 0.5rem;
 }
